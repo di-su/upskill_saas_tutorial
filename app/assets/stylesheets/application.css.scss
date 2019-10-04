@@ -20,7 +20,7 @@
 @import "font-awesome";
 
 // Typography styles
-h1, h2, h3 {
+h1, h2, h3, .navbar-brand {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -35,6 +35,10 @@ h1, h2, h3 {
 // Nav styles
 .navbar {
 	border: none;
+}
+
+.navbar-brand {
+	font-weight: 800;
 }
 
 .navbar-default .navbar-brand, 
